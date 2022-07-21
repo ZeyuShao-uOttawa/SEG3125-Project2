@@ -5,18 +5,16 @@ import CPU from '../image/CPU.png';
 import GPU from '../image/GPU.jpg';
 import Memory from '../image/Memory.jpg';
 import Motherboard from '../image/Motherboard.png';
-import Storage from '../image/Storage.png';
-import PSU from '../image/PSU.jpg';
-import Case from '../image/Case.jpg';
-import Monitor from '../image/Monitor.png';
+import Storage from '../image/Storage.jpg';
+import PSU from '../image/PSU.png';
+import Case from '../image/Case.jpeg';
+import Monitor from '../image/Monitor.jpg';
 
 
 export default function Home(){
   let names = ['CPU', 'GPU', 'Memory', 'Motherboard', 'Storage', 'Power Supplies', 'Case', 'Monitor'];
   let img = [CPU, GPU, Memory, Motherboard, Storage, PSU , Case, Monitor];
-  let links = ['/web/component/cpu', '/web/', '/web/', '/web/', '/web/', '/web/', '/web/', '/web/'];
-
-  alert("Currently, only the CPU page is implemented. The search and price filter is not implemented yet. The product details after clicking a project is limited. Tutorial section is not implemented yet.")
+  let links = ['/SEG3125-Project2/component/cpu', '/SEG3125-Project2/component/cpu', '/SEG3125-Project2/component/cpu', '/SEG3125-Project2/component/cpu', '/SEG3125-Project2/component/cpu', '/SEG3125-Project2/component/cpu', '/SEG3125-Project2/component/cpu', '/SEG3125-Project2/component/cpu'];
 
   return(
     <div className="body-main">

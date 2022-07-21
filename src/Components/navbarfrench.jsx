@@ -16,7 +16,7 @@ function LinkContainerDropdown(props){
   );
 }
 
-function navbar() {
+function navbarFrench() {
   const margin = {
     margin: '0px 40px',
   }
@@ -38,7 +38,7 @@ function navbar() {
         >
           
           <LinkContainer to="/SEG3125-Project2/" style={{margin:'0px 40px 0px 0px'}}>
-            <Nav.Link>Home</Nav.Link>
+            <Nav.Link>Maison</Nav.Link>
           </LinkContainer>
 
           <NavDropdown title="CPU" id="navbarScrollingDropdown">
@@ -53,7 +53,7 @@ function navbar() {
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="Nvidia"/>
           </NavDropdown>
 
-          <NavDropdown title="Memory" id="navbarScrollingDropdown">
+          <NavDropdown title="Mémoire" id="navbarScrollingDropdown">
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="All"/>
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="Crucial"/>
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="Corsair"/>
@@ -61,7 +61,7 @@ function navbar() {
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="Kingston"/>
           </NavDropdown>
 
-          <NavDropdown title="Motherboard" id="navbarScrollingDropdown">
+          <NavDropdown title="Carte mère" id="navbarScrollingDropdown">
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="All"/>
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="ASRock"/>
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="Asus"/>
@@ -70,7 +70,7 @@ function navbar() {
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="MSI"/>
           </NavDropdown>
 
-          <NavDropdown title="Storage" id="navbarScrollingDropdown">
+          <NavDropdown title="Stockage" id="navbarScrollingDropdown">
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="All"/>
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="Crucial"/>
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="Kingston"/>
@@ -79,7 +79,7 @@ function navbar() {
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="Western Digital"/>
           </NavDropdown>
 
-          <NavDropdown title="Power Supplies" id="navbarScrollingDropdown">
+          <NavDropdown title="Alimentations" id="navbarScrollingDropdown">
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="All"/>
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="Asus"/>
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="Cooler Master"/>
@@ -90,7 +90,7 @@ function navbar() {
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="SeaSonic"/>
           </NavDropdown>
 
-          <NavDropdown title="Case" id="navbarScrollingDropdown">
+          <NavDropdown title="Cas" id="navbarScrollingDropdown">
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="All"/>
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="Cooler Master"/>
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="Corsair"/>
@@ -99,7 +99,7 @@ function navbar() {
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="NZXT"/>
           </NavDropdown>
 
-          <NavDropdown title="Monitor" id="navbarScrollingDropdown" style={{margin:'0px 40px 0px 0px'}}>
+          <NavDropdown title="Moniteur" id="navbarScrollingDropdown" style={{margin:'0px 40px 0px 0px'}}>
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="All"/>
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="Acer"/>
             <LinkContainerDropdown route="/SEG3125-Project2/component/cpu" name="Alienware"/>
@@ -112,10 +112,10 @@ function navbar() {
           </NavDropdown>
 
           <LinkContainer to="/SEG3125-Project2/howto" style={{margin:'0px 10px 0px 0px'}}>
-            <Nav.Link>How To</Nav.Link>
+            <Nav.Link>Comment</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/SEG3125-Project2/support" style={{margin_left:'0px'}}>
-            <Nav.Link>Support</Nav.Link>
+            <Nav.Link>Soutien</Nav.Link>
           </LinkContainer>
         </Nav>
         {/* <Form className="d-flex" style={margin}>
@@ -147,4 +147,4 @@ function navbar() {
   );
 }
 
-export default navbar;
+export default navbarFrench;

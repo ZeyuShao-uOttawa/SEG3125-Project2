@@ -18,11 +18,20 @@ function modal(props) {
         {Array.from({ length: props.specs.length }).map((_, index) => (
           <p key={index}>{props.specs[index]}: {props.object[index]}</p>
         ))}
+        <h4>Price (CAD)</h4>
+        <p>
+          Amazon: {props.object[6]}
+          <br/>
+          Best Buy: {(parseInt(props.object[6]) + 50.59)}
+          <br/>
+          Newegg: {(parseInt(props.object[6]) + 100.59)}
+        </p>
         <h4>Reviews</h4>
         <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
+          This product is great, it is definitely worth you money. I've been having problems with my previous CPU and after installing this new one, my computer has
+          not run into any issues, as well as being much faster then before.
+          <br/>
+          With that being said, I will conclude with a statement that I, and a close friend of mine agree with thoroughly, "val bad game"
         </p>
       </Modal.Body>
       <Modal.Footer>
